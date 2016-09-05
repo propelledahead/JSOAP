@@ -8,7 +8,7 @@ In general you have the following:
 
 ## Attribution
 Author: David P Smith
-License: Creative Commons Attribution 4.0 International
+License: Creative Commons Attribution 4.0 International https://creativecommons.org/licenses/by/4.0/legalcode
 Site: http://PropelledAhead.com/
 Blog http://techartisans.blogspot.com/
 Fiddles: https://jsfiddle.net/user/techartisans/fiddles/
