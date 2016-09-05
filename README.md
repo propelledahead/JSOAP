@@ -19,7 +19,7 @@ For those in web development or enterprise development we have seen a number of 
 
 This post is an attempt to develop a JSON Web Services Description Language file format to provide the ability to create a standard for JSON based web services that is both structured using the lessons learned from years of building SOAP web services and utilizing the best innovations such as JSON (with REST compatibility) to build a more robust web service standard. One of the puzzle peices is building a description of the web services themselves that can be consumed in a friendly way.
 
-### ANATOMY OF A JWSDL
+### JWSDL ANATOMY
 
 services (shorthand: "s")
 service names (0 .. n names listed)
