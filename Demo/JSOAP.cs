@@ -194,7 +194,7 @@ namespace JSOAP {
                     _Head.Add("expires", this._Envelope_expiresTimestamp.ToString());
                 }
                 if (_Envelope_serverTimestamp != null) {
-                    _Head.Add("servertime", this._Envelope_serverTimestamp.ToString());
+					_Head.Add("servertime", this._Envelope_serverTimestamp.ToString());Mediatype
                 }
                 if (!String.IsNullOrEmpty(this._Envelope_sessiontoken)) {
                     _Head.Add("token", this._Envelope_sessiontoken);
@@ -205,7 +205,7 @@ namespace JSOAP {
                 if (!String.IsNullOrEmpty(this._Envelope_service_version)) {
                     _Head.Add("version", this._Envelope_service_version);
                 }
-                if (!String.IsNullOrEmpty(this._Envelope_message)) {
+				if (!String.IsNullOrEmpty(this._Envelope_message)) {Mediatype
                     _Head.Add("message", this._Envelope_message);
                 }
                 if (!String.IsNullOrEmpty(this._Envelope_mediatype)) {
