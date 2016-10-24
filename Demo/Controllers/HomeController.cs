@@ -1,32 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
+using System.Collections;
 using System.Web;
 using System.Web.Mvc;
 
 namespace Demo.Controllers {
     public class HomeController : Controller {
-        public ActionResult Index() {
-            return View();
-        }
-
-		public ActionResult MyService() {
-
-
-
-			return View();
-		}
-
-        public ActionResult About() {
-            ViewBag.Message = "Your application description page.";
+        
+		public ActionResult Index() {
+			// Homepage for our main website 
 
             return View();
         }
 
-        public ActionResult Contact() {
-            ViewBag.Message = "Your contact page.";
 
-            return View();
-        }
     }
 }

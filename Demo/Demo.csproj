@@ -175,6 +175,7 @@
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
+    <Compile Include="Controllers\MyService\1.0\MyServiceController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
@@ -231,6 +232,9 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\MyService\Index.cshtml" />
+    <Content Include="Views\MyService\1.0\Index.cshtml" />
+    <None Include="JSOAP.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -281,4 +285,10 @@
   </Target>
   <Target Name="AfterBuild">
   </Target> -->
+  <ItemGroup>
+    <Folder Include="Controllers\MyService\" />
+    <Folder Include="Controllers\MyService\1.0\" />
+    <Folder Include="Views\MyService\" />
+    <Folder Include="Views\MyService\1.0\" />
+  </ItemGroup>
 </Project>
